@@ -8,8 +8,10 @@ Steps:
 4- python manage.py migrate
 5- python manage.py runserver
 
-Create Customer Request
+Create Customer
 -----------------------------------
+Request
+
 POST /api/v1/create_customer/
     {
         "id":1,
@@ -27,8 +29,10 @@ Response
     }]
 
 
-Create Policy Request
+Create Policy
 -----------------------------------
+Request
+
 POST /api/v1/create_policy/
     {
         "type":"text",
